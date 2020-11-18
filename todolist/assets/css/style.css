@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: FreeSans, "Liberation Sans", sans-serif;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+.content-center {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: lemonchiffon;
+    border-radius: 10%;
+}
+
+.content-center input {
+    border-bottom-color: #CCCCCC;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 10px;
+}
+
+.content-center input button {
+    width: 100%;
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+}
+
+.content-center input:focus {
+    border-bottom-color: #D07335;
+}
+
+.content-center button {
+    background-color: transparent;
+}
+
+.tasks {
+    list-style: none;
+    padding: 0;
+}
+.tasks li {
+    padding: 10px;
+    border-bottom: #b35336 1px solid;
+}
+.tasks li input {
+    width: initial;
+    margin-right: 10px;
+}
+.tasks li.checked {
+    text-decoration: line-through;
+    color: #999;
+    /*cursor: not-allowed;*/
+}
+
+.tasks button {
+    width: 60px;
+    float: right;
+    min-width: 30px;
+    outline: none;
+    border: none;
+}
+
+#new_task {
+    width: 100%;
+    padding: 10px;
+}
